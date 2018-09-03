@@ -7,7 +7,7 @@
 
 鼠标放置在 :question: 标志会提示目前系统的可登录账户：
 ```
-he account name in the system: alice,jack,tom,mike,fei
+The account name in the system: alice,jack,tom,mike,fei
 ```
 每一个账户都会有一个唯一的证件号作为标识，该证件号以"CIM"开头
 
