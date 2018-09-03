@@ -1,15 +1,15 @@
-##1.启动区块链系统
+## 1.启动区块链系统
 进入根目录：
 ```
 cd BillsOnBC
 ```
-###安装gulp：
+### 安装gulp：
 ```
 npm install -g gulp
 npm install
 ```
 整个安装过程未出现error即为安装成功，如果gulp安装过程中提示权限不够的问题，可能你需要设置环境变量`export NPM_CONFIG_PREFIX=$HOME/.npm-global`后再次尝试安装。
-###启动
+### 启动
 ```
 gulp billsonbc
 ```

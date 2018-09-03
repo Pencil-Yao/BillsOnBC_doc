@@ -1,4 +1,4 @@
-##1. 安装区块链票据依赖项
+## 1. 安装区块链票据依赖项
 进入区块链票据目录
 ```
 cd BillsOnBC
@@ -8,7 +8,7 @@ cd BillsOnBC
 npm install
 ```
 安装过程未出现任何error说明安装成功
-##2. 获得加密证书材料
+## 2. 获得加密证书材料
 **关键步骤**打开配置文件`<BillsOnBC root>/config/connection_profile_local.json`
 - `organizations -> x-adminCert -> path`
 - `organizations -> x-adminKeyStore -> path`
@@ -18,7 +18,7 @@ npm install
 
 client的path由于fabric-client的bug，直接修改为`/root/.hfc-key-store`
 修改完成以后，可以进行链码安装工作。
-##3. 安装和实例化链码
+## 3. 安装和实例化链码
 进入以下目录：
 ```
 cd BillsOnBC/scripts

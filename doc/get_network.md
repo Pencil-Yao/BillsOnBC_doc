@@ -1,9 +1,9 @@
-##1. 启动Fabric网络
+## 1. 启动Fabric网络
 ```
 cd fabric-sample/fabcar
 sudo ./startFabric.sh
 ```
-###验证启动成功
+### 验证启动成功
 ```
 sudo docker ps
 ```
@@ -17,12 +17,12 @@ deb31626af2b        hyperledger/fabric-peer                                     
 698c6e124c41        hyperledger/fabric-ca                                                                                    "sh -c 'fabric-ca-se…"   3 minutes ago       Up 3 minutes        0.0.0.0:7054->7054/tcp                           ca.example.com
 d7cd8ece5ad5        hyperledger/fabric-orderer                                                                               "orderer"                3 minutes ago       Up 3 minutes        0.0.0.0:7050->7050/tcp                           orderer.example.com
 ```
-##2. 安装网络依赖项
+## 2. 安装网络依赖项
 fabcar网络使用到了fabric的node.js SDK，因此输入以下命令安装网络依赖项：
 ```
 npm install
 ```
-##3. 创建kvstore
+## 3. 创建kvstore
 kvstore是存放组织中admin用户的身份证书和tls证书的地址，在fabcar中kvstore在.hfc-key-store文件夹内，运行一下命令登记并注册一个admin账户：
 ```
 node enrollAdmin.js
