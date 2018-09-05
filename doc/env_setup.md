@@ -29,7 +29,7 @@ tar -C /usr/local/ -xf go1.10.4.linux-amd64.tar.gz
 ```
 vim ~/.bashrc
 
-export GOPATH=/home/ypf/ypf-app/goapp
+export GOPATH=/root/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
 ```
 验证go安装
